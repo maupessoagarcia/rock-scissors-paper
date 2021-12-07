@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Rock - Scissors - Paper Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="enter-name">
+        <h2 class="name">Enter your name</h2>
+        <input class="name-input" type="text" />
+        <button class="name-btn">Click here</button>
+      </div>
+      <div class="subcontainer reset">
+        <div class="scoreboard-wrapper">
+          <div class="scoreboard-cpu">
+            <h1 class="cpu-label">CPU</h1>
+            <p class="placar placar-cpu">0</p>
+          </div>
+          <div class="scoreboard-you">
+            <h1 class="you-label">You</h1>
+            <p class="placar placar-you">0</p>
+          </div>
+        </div>
+        <div class="reset result-wrapper">
+          <div class="cpu-option">
+            <i class="cpu-play far fa-hand-rock"></i>
+          </div>
+          <div class="versus">
+            <h2 class="versus-text">X</h2>
+          </div>
+          <div class="you-option">
+            <i class="you-play far fa-hand-peace"></i>
+          </div>
+        </div>
+        <div class="result">
+          <h2 class="reset resultado">CPU Won</h2>
+        </div>
+        <div class="options-container">
+          <div class="options">
+            <div class="option-btn rock">
+              <i class="far fa-hand-rock"></i>
+              <p class="option-paragraph">Rock</p>
+            </div>
+          </div>
+          <div class="options">
+            <div class="option-btn scissors">
+              <i class="far fa-hand-peace"></i>
+              <p class="option-paragraph">Scissors</p>
+            </div>
+          </div>
+          <div class="options">
+            <div class="option-btn paper">
+              <i class="far fa-hand-paper"></i>
+              <p class="option-paragraph">Paper</p>
+            </div>
+          </div>
+        </div>
+        <button class="new-game">New Game</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
